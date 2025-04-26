@@ -61,10 +61,9 @@ A simple Full Stack Health Information System where you can register clients, cr
 
 5.  Start the backend server:
 
-        ```bash
         npm run dev
 
-    The server will run on http://localhost:4000.
+The server will run on http://localhost:4000.
 
 ### Frontend (Client)
 
