@@ -3,6 +3,7 @@ const cors = require('cors');
 require('dotenv').config(); // <--- .env support
 const clientRoutes = require('./routes/clients'); // <--- clients route
 const programRoutes = require('./routes/programs'); // <--- programs route
+const enrollmentRoutes = require('./routes/enrollments');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -14,6 +15,7 @@ app.use(express.json());
 // Routes
 app.use('/api/clients', clientRoutes);
 app.use('/api/programs', programRoutes);
+app.use('/api/enrollments', enrollmentRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
