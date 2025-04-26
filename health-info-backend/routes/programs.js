@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const clientController = require('../controllers/clientsController');
+const programsController = require('../controllers/programsController'); // Fix this line
 
-router.post('/', clientController.createClient);
-router.get('/', clientController.getClients);
-router.get('/:id', clientController.getClientProfile);
+router.post('/', programsController.createProgram); // Fix this line
+router.get('/', programsController.getPrograms); // Fix this line
 
 module.exports = router;

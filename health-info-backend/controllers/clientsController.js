@@ -3,9 +3,10 @@ const db = require('../db');
 exports.createClient = async (req, res) => {
     try {
         const { first_name, last_name, email, phone } = req.body;
-        const [id] = await db('clients').insert({ first_name, last_name, email, phone})
+        const [id] = await db('clients').insert({ first_name, last_name, email, phone});
         res.status(201).json({ message: 'Client registered successfully', id });
     } catch (error) {
+        console.error(error);
         res.status(500).json({ error: 'Failed to register client' });
     }
 };
