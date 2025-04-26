@@ -5,7 +5,7 @@ A simple Full Stack Health Information System where you can register clients, cr
 ## Demo
 
 - [Demo Video Link](https://drive.google.com/file/d/1SQ7Nt-n9jK0jDEPr8P6dErS34XfdBSJr/view)
-- [Presentation Link](https://docs.google.com/presentation/d/1wjmkO_MHRMUBm-E_d21G3djqR_pIw_wy/edit?usp=drive_web&ouid=109325451512619244936&rtpof=true)
+- [Presentation Link](https://docs.google.com/presentation/d/1klQxdY_OQ5Kvg8kzxLk4ZSxjSS0aDWHD/edit?usp=sharing&ouid=109325451512619244936&rtpof=true&sd=true)
 
 ---
 
