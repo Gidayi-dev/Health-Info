@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
+// Routes
+const clientRoutes = require('./routes/clients');
+app.use('/api/clients', clientRoutes);
+
 // Basic route
 app.get("/", (req, res) => {
   res.send("Health Information System API is running");
